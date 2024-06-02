@@ -7,22 +7,22 @@
       import_role:
           name: system
 
-    - name: Tools
-      tags: tools
-      import_role:
-          name: tools
-
     - name: Neovim
       tags: nvim
       import_role:
           name: nvim
+
+    - name: Stow
+      tags: stow
+      import_role:
+          name: stow
 
     - name: CLI
       tags: cli 
       import_role:
           name: cli
 
-    - name: Stow
-      tags: stow
+    - name: Tools
+      tags: tools
       import_role:
-          name: stow
+          name: tools
