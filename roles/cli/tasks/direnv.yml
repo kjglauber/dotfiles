@@ -1,0 +1,7 @@
+---
+- name: Install direnv
+  become: true
+  ansible.builtin.apt:
+    name: direnv
+    state: present
+

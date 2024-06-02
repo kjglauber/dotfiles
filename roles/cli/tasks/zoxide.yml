@@ -1,0 +1,9 @@
+- name: Install CLI tools in Ubuntu
+  become: true
+  unarchive:
+    src: https://github.com/ajeetdsouza/zoxide/releases/download/v{{ zoxide_version }}/zoxide-{{ zoxide_version }}-x86_64-unknown-linux-musl.tar.gz
+    dest: "{{ ansible_env.HOME }}/.local/bin"
+    remote_src: true
+    extra_opts:
+      - "zoxide"
+  when: ansible_distribution == "Kali"

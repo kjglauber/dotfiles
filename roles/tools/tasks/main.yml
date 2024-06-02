@@ -1,0 +1,9 @@
+---
+- name: Install jwt_tool
+  import_tasks: jwt_tool.yml
+
+- name: Install arjun
+  import_tasks: arjun.yml
+
+- name: Install seclists
+  import_tasks: seclists.yml

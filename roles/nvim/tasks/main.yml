@@ -1,0 +1,14 @@
+---
+- name: Install nvim in Linux
+  import_tasks: linux.yml
+  when: ansible_distribution == "Kali"
+
+- name: Install pynvim
+  ansible.builtin.pip:
+    name:
+      - pynvim
+    state: present
+    executable: pip3
+
+- name: Generate :help pages
+  shell: nvim --headless -c 'helptags ALL' -c quit

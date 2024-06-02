@@ -1,0 +1,13 @@
+---
+- name: Install jwt_tool dependencies
+  ansible.builtin.pip:
+      name: ["termcolor", "cprint", "pycryptodomex", "requests"]
+
+- name: Create jwt_tool symlink
+  file:
+    src: "deps/jwt_tool/{{ item }}"
+    path: "{{ ansible_env.HOME }}/.local/bin/{{ item }}"
+    state: link
+    mode: "+x"
+  with_items:
+    - "jwt_tool.py"

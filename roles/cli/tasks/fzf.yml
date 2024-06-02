@@ -1,0 +1,15 @@
+---
+- name: Install fzf
+  command:
+    cmd: ./install --bin
+    chdir: "stow_dir/.local/bin/deps/fzf"
+    creates: "stow_dir/.local/bin/deps/fzf/bin/fzf"
+
+- name: Create symlinks
+  file:
+    src: "deps/fzf/bin/{{ item }}"
+    path: "{{ ansible_env.HOME }}/.local/bin/{{ item }}"
+    state: link
+  with_items: 
+    - "fzf"
+    - "fzf-tmux"

@@ -1,0 +1,4 @@
+---
+- name: Install httpie
+  ansible.builtin.pip:
+      name: httpie

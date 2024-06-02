@@ -1,0 +1,21 @@
+---
+- name: Install zoxide
+  import_tasks: zoxide.yml
+
+- name: Install fzf
+  import_tasks: fzf.yml
+
+- name: Install direnv
+  import_tasks: direnv.yml
+
+- name: Install ranger
+  import_tasks: ranger.yml
+
+- name: Install ripgrep
+  import_tasks: ripgrep.yml
+
+- name: Install jq
+  import_tasks: jq.yml
+
+- name: Install httpie
+  import_tasks: httpie.yml

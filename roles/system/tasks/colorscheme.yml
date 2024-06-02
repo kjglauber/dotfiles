@@ -1,0 +1,6 @@
+- name: Download rose-pine-moon colorscheme
+  become: True
+  ansible.builtin.get_url:
+    url: https://raw.githubusercontent.com/rose-pine/qterminal/main/dist/rose-pine-moon.colorscheme
+    dest: /usr/share/qtermwidget5/color-schemes
+    mode: '0440'

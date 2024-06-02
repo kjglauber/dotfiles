@@ -1,0 +1,28 @@
+---
+- name: Bootstrap environment
+  hosts: localhost
+  tasks:
+    - name: System
+      tags: system
+      import_role:
+          name: system
+
+    - name: Tools
+      tags: tools
+      import_role:
+          name: tools
+
+    - name: Neovim
+      tags: nvim
+      import_role:
+          name: nvim
+
+    - name: CLI
+      tags: cli 
+      import_role:
+          name: cli
+
+    - name: Stow
+      tags: stow
+      import_role:
+          name: stow

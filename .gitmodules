@@ -1,0 +1,120 @@
+[submodule "deps/neovim"]
+	path = stow_dir/.local/bin/deps/neovim
+	url = https://github.com/neovim/neovim
+[submodule "deps/fzf"]
+	path = stow_dir/.local/bin/deps/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "stow_dir/.local/bin/deps/jwt_tool"]
+	path = stow_dir/.local/bin/deps/jwt_tool
+	url = https://github.com/ticarpi/jwt_tool
+[submodule "stow_dir/.config/tmux/plugins/tmux-sensible"]
+	path = stow_dir/.config/tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule "stow_dir/.config/tmux/plugins/tmux-copycat"]
+	path = stow_dir/.config/tmux/plugins/tmux-copycat
+	url = https://github.com/tmux-plugins/tmux-copycat
+[submodule "stow_dir/.config/tmux/plugins/tmux-pain-control"]
+	path = stow_dir/.config/tmux/plugins/tmux-pain-control
+	url = https://github.com/tmux-plugins/tmux-pain-control
+[submodule "stow_dir/.config/tmux/plugins/tmux-open"]
+	path = stow_dir/.config/tmux/plugins/tmux-open
+	url = https://github.com/tmux-plugins/tmux-open
+[submodule "stow_dir/.config/tmux/plugins/tmux-yank"]
+	path = stow_dir/.config/tmux/plugins/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank
+[submodule "stow_dir/.config/nvim/pack/plugins/plenary.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/telescope.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-tree.lua"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-web-devicons"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vimwiki"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-sensible"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-unimpaired"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-surround"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-commentary"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-characterize"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-characterize
+	url = https://github.com/tpope/vim-characterize.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-sleuth"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/vim-repeat"]
+	path = stow_dir/.config/nvim/pack/plugins/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-lspconfig"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/mason.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/mason.nvim
+	url = https://github.com/williamboman/mason.nvim
+[submodule "stow_dir/.config/nvim/pack/plugins/start/mason-lspconfig.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/mason-lspconfig.nvim
+	url = https://github.com/williamboman/mason-lspconfig.nvim
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-cmp"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp
+[submodule "stow_dir/.config/nvim/pack/plugins/start/cmp-nvim-lsp"]
+	path = stow_dir/.config/nvim/pack/plugins/start/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp
+[submodule "stow_dir/.config/nvim/pack/plugins/start/LuaSnip"]
+	path = stow_dir/.config/nvim/pack/plugins/start/LuaSnip
+	url = https://github.com/L3MON4D3/LuaSnip.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-treesitter"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "stow_dir/.zsh/plugins/fzf-tab"]
+	path = stow_dir/.zsh/plugins/fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/cmp-path"]
+	path = stow_dir/.config/nvim/pack/plugins/start/cmp-path
+	url = https://github.com/hrsh7th/cmp-path.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/harpoon"]
+	path = stow_dir/.config/nvim/pack/plugins/start/harpoon
+	url = https://github.com/ThePrimeagen/harpoon.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/friendly-snippets"]
+	path = stow_dir/.config/nvim/pack/plugins/start/friendly-snippets
+	url = https://github.com/rafamadriz/friendly-snippets.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/telescope-ui-select.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/telescope-ui-select.nvim
+	url = https://github.com/nvim-telescope/telescope-ui-select.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/lualine.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/neovim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/neovim
+	url = https://github.com/rose-pine/neovim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/cmp_luasnip"]
+	path = stow_dir/.config/nvim/pack/plugins/start/cmp_luasnip
+	url = https://github.com/saadparwaiz1/cmp_luasnip.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/trouble.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/trouble.nvim
+	url = https://github.com/folke/trouble.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nvim-notify"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nvim-notify
+	url = https://github.com/rcarriga/nvim-notify.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/noice.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/noice.nvim
+	url = https://github.com/folke/noice.nvim.git
+[submodule "stow_dir/.config/nvim/pack/plugins/start/nui.nvim"]
+	path = stow_dir/.config/nvim/pack/plugins/start/nui.nvim
+	url = https://github.com/MunifTanjim/nui.nvim.git
+[submodule "stow_dir/.zsh/plugins/spaceship-prompt"]
+	path = stow_dir/.zsh/plugins/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git

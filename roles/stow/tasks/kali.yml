@@ -1,0 +1,7 @@
+---
+- name: Install Stow in Kali
+  become: true
+  apt:
+    name:
+      - stow
+    state: present

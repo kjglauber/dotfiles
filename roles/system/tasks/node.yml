@@ -1,0 +1,8 @@
+---
+- name: Install node and npm
+  become: true
+  ansible.builtin.apt:
+    pkg:
+     - nodejs
+     - npm
+
